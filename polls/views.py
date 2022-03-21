@@ -4,7 +4,7 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse('Hello, devs sem camisa, Você está dentro de polls index')
+    return HttpResponse('Hello, sem camisa, Você está dentro de polls index')
 
 def detail(request, question_id):
     response = 'Você está buscando a pesgunta %s.'
